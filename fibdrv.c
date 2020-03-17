@@ -42,7 +42,7 @@ static long long fib_fast_doub(long long k)
             long long tmp;
             tmp = a + b;
             a = b;
-            b = t1;
+            b = tmp;
         }
     }
     return a;
